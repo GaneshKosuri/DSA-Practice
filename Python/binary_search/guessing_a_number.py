@@ -1,7 +1,7 @@
 # --EASY--
 # https://leetcode.com/problems/guess-number-higher-or-lower/description/
 
-def guessNumber(self, n: int) -> int:
+def guessNumber(n):
     start = 1
     end = n
     while(start < end):
